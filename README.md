@@ -30,7 +30,7 @@ http://localhost/app/form-action-json.php?param1=%E3%83%86%E3%82%B9%E3%83%88&_=1
 と言うフォーマットに jQuery に加工されてサーバの PHP が呼び出されます
 ## PHP でデータを受け取る
 QuertyString と呼ばれる ? 以降の文字列が $_GET にセットされて PHP に入る
-```javascript
+```
 param1=%E3%83%86%E3%82%B9%E3%83%88&_=1626243759099
 ```
 $_GET["param1"] に "テスト" がセットされて スーパーグローバル変数として利用可能となる。
