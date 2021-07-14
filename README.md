@@ -34,5 +34,9 @@ QuertyString と呼ばれる ? 以降の文字列が $_GET にセットされて
 param1=%E3%83%86%E3%82%B9%E3%83%88&_=1626243759099
 ```
 <b>$_GET["param1"] </b>に "テスト" がセットされて スーパーグローバル変数として利用可能となる。
-
+## PHP で json 文字列を返す為に、stdClass と言う簡易オブジェクトを作成して利用する
+```javascript
+$json = new stdClass;
+$json->get = $_GET;
+```
 
