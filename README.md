@@ -44,7 +44,7 @@ $json->get = $_GET;
 print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
 ```
 ## $.ajaxに返す為の json フォーマットの文字列を json_encode 関数で作成する
-```
+```php
 print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
 ```
 ## PHP より返却された json を .doneで data として受け取る
