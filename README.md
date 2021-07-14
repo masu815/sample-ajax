@@ -43,3 +43,18 @@ $json->get = $_GET;
 ```php
 print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
 ```
+## $.ajaxに返す為の json フォーマットの文字列を json_encode 関数で作成する
+```
+print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
+```
+## PHP より返却された json を .doneで data として受け取る
+```javascript
+{
+	"get": {
+		"param1": "テスト",
+		"_": "1626244981881"
+	},
+	"post": [],
+	"session": []
+}
+```
