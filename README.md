@@ -16,3 +16,8 @@ formData のプロパティは formData.プロパティ文字列 と書く事も
 ```javascript
 formData.param1 = "テスト";
 ```
+
+## jQuery 側からサーバへデータを送る
+```javascript
+data: formData
+```
